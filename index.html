@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Milošević Vladimir</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/img.png" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap end -->
+
+    <!-- Sliku sa proizvod otvara kao slajd  -->
+    <link href="style/lightbox.min.css" rel="stylesheet" />
+
+    <script src="js/lightbox-plus-jquery.min.js">
+      lightbox.option({
+           'resizeDuration': 200,
+           'wrapAround': true
+         });
+    </script>
+    <!-- Sliku sa proizvod otvara kao slajd  kraj-->
+
+    <!-- Ikonice -->
+    <link rel="stylesheet" href="icon/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Ikonice end -->
+
+    <!-- Slajd za proizvode -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    />
+    <!-- Slajd za proizvode end-->
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT end -->
+
+    <link rel="stylesheet" href="style/index.css" />
+  </head>
+
+  <body>
+    <!-- Vertical navbar -->
+    <div class="vertical-nav bg-white active" id="sidebar">
+      <button
+        id="hideNav"
+        type="button"
+        class="
+          btn btn-light
+          bg-warning
+          rounded-pill
+          shadow-sm
+          px-4
+          mb-4
+          float-right
+        "
+      >
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </button>
+
+      <div class="headerNav py-5 px-3 mb-4 bg-light">
+        <div class="media d-flex align-items-center">
+          <img
+            loading="lazy"
+            src="img/img.png"
+            alt="..."
+            width="80"
+            height="80"
+            class="mr-3 rounded-circle img-thumbnail shadow-sm"
+          />
+          <div class="media-body">
+            <h4 class="m-0">Milošević Vladimir</h4>
+            <p class="font-weight-normal text-muted mb-0">Web developer</p>
+          </div>
+        </div>
+      </div>
+
+      <ul class="nav flex-column bg-white mb-0">
+        <li class="nav-item text-center">
+          <a href="#home" class="nav-link text-dark"> HOME </a>
+        </li>
+        <li class="nav-item text-center">
+          <a href="#aboutMe" class="nav-link text-dark"> ABOUT ME </a>
+        </li>
+        <li class="nav-item text-center">
+          <a href="#portfolio" class="nav-link text-dark"> PORTFOLIO </a>
+        </li>
+        <li class="nav-item text-center">
+          <a href="#education" class="nav-link text-dark"> EDUCATION </a>
+        </li>
+        <li class="nav-item text-center">
+          <a href="#skills" class="nav-link text-dark"> MY SKILLS </a>
+        </li>
+        <li class="nav-item text-center">
+          <a href="#contact" class="nav-link text-dark"> CONTACT ME </a>
+        </li>
+        <li class="nav-item text-center">
+          <a href="www.stankom.com" class="nav-link text-dark"> Logo </a>
+        </li>
+        <li class="nav-item text-center">
+          <a href="login.html" class="nav-link text-dark"> LOGIN ADMIN</a>
+        </li>
+      </ul>
+    </div>
+    <!-- End vertical navbar -->
+
+    <!-- Hamburger button -->
+
+    <button
+      id="sidebarCollapse"
+      type="button"
+      class="
+        btn btn-light
+        bg-warning
+        rounded-pill
+        shadow-sm
+        px-4
+        mb-4
+        float-right
+      "
+    >
+      <i class="fa fa-bars mr-2"></i>
+    </button>
+
+    <!-- Hamburger button end -->
+
+    <!-- Jumbotron -->
+    <div class="shadowJumbotron">
+      <div id="home" class="jumbotron">
+        <div class="row text-center">
+          <div class="container col-lg-12">
+            <img id="myPhoto" src="img/img.png" alt="" />
+            <h1 class="display-4 text-white">Milošević Vladimir</h1>
+            <p class="lead text-warning">Web developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron end -->
+
+    <!-- About me -->
+    <div class="wallpaperAbout">
+      <div class="col-lg-12 col-md-10 col-sm-10">
+        <div class="container">
+          <div class="row col-lg-12">
+            <div class="text-center mt-5">
+              <h1 id="aboutMe">About me</h1>
+              <div class="row rowLine">
+                <span class="uvc-headings-line"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row my-5">
+            <div class="col-lg-2 col-md-8 col-sm-4">
+              <img src="img/img.png" width="100%" alt="" />
+            </div>
+
+            <div class="col-lg-4">
+              <h2 class="mb-5">Personal Info</h2>
+
+              <p>Name: Milošević Vladimir</p>
+              <p>Nationality: Serbian</p>
+              <p>Phone: +381 (62) 28 33 15</p>
+              <p>Email: vladimirmilosevic1995@gmail.com</p>
+            </div>
+
+            <div class="col-lg-6">
+              <h2 class="mb-5">About Myself</h2>
+              <p>
+                Hard-working web developer with one year of experience and
+                strong full stack skills, that likes to improve himself on an
+                everyday basis, to provide his users the best results. His
+                website is used as an example to illustrate how interactive
+                design can attract customers. Working on many projects in a team
+                but also independently allowed him to expand his knowledge in
+                programming . Fast learner, eager to learn, enjoys working in a
+                team environment, sharing his ideas, and help whenever possible.
+              </p>
+              <div class="my-3">
+                <button class="btn btn-md myBtn">CONTACT ME</button>
+                <button class="btn btn-warning text-white">PORTFOLIO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About me end -->
+
+    <!-- WebSites -->
+    <div class="section">
+      <section id="portfolio" class="testionials">
+        <div class="row rowWebsite">
+          <div class="container-fluid">
+            <div class="col-sm-12 text-center text-white my-5">
+              <h1>Portfolio</h1>
+              <div class="row rowLine">
+                <span class="uvc-headings-line"></span>
+              </div>
+              <p>Check out some of my work</p>
+
+              <div id="customers-testionials" class="owl-carousel">
+                <!-- item 1 -->
+                <div class="item">
+                  <div class="shadow-effect">
+                    <img
+                      class="img-circle"
+                      style="width: 100%"
+                      src="img/project/GlanzKuechen/1.png"
+                      alt=""
+                    />
+                    <div class="team-text">
+                      <p>
+                        <a
+                          class="borderCircle"
+                          href="http://glanzkuechen.de/"
+                          target="_blank"
+                          ><i class="fa fa-link" aria-hidden="true"></i
+                        ></a>
+                        <a
+                          class="borderCircle"
+                          href="img/project/GlanzKuechen/1.png"
+                          data-lightbox="Glanz Kuechen"
+                          ><i class="fa fa-search-plus" aria-hidden="true"></i
+                        ></a>
+                        <a
+                          href="img/project/GlanzKuechen/2.png"
+                          data-lightbox="Glanz Kuechen"
+                        ></a>
+                        <a
+                          href="img/project/GlanzKuechen/3.png"
+                          data-lightbox="Glanz Kuechen"
+                        ></a>
+                        <a
+                          href="img/project/GlanzKuechen/4.png"
+                          data-lightbox="Glanz Kuechen"
+                        ></a>
+                        <a
+                          href="img/project/GlanzKuechen/5.png"
+                          data-lightbox="Glanz Kuechen"
+                        ></a>
+                      </p>
+                    </div>
+                  </div>
+
+                  <a
+                    href="http://glanzkuechen.de/"
+                    class="text-white text-decoration-none"
+                  >
+                    <h3 class="headerLine">GLANZ KÜCHEN</h3>
+                    <br />
+                    <p>Visit website</p>
+                  </a>
+                </div>
+                <!-- item 1 end -->
+
+                <!-- item 2 -->
+                <div class="item">
+                  <div class="shadow-effect">
+                    <img
+                      class="img-circle"
+                      style="width: 100%"
+                      src="img/project/Accounts-App/1.png"
+                      alt=""
+                    />
+                    <div class="team-text">
+                      <p>
+                        <a
+                          class="borderCircle"
+                          href="https://github.com/wlada995/React-Accounts-App"
+                          target="_blank"
+                          ><i class="fa fa-link" aria-hidden="true"></i
+                        ></a>
+
+                        <a
+                          class="borderCircle"
+                          href="img/project/Accounts-App/1.png"
+                          data-lightbox="project1"
+                          ><i class="fa fa-search-plus" aria-hidden="true"></i
+                        ></a>
+
+                        <a
+                          href="img/project/Accounts-App/2.png"
+                          data-lightbox="project1"
+                        ></a>
+                        <a
+                          href="img/project/Accounts-App/3.png"
+                          data-lightbox="project1"
+                        ></a>
+
+                        <a
+                          href="img/project/Accounts-App/4.png"
+                          data-lightbox="project1"
+                        ></a>
+                      </p>
+                    </div>
+                  </div>
+
+                  <a
+                    href="https://github.com/wlada995/React-Accounts-App"
+                    class="text-white text-decoration-none"
+                  >
+                    <h3 class="headerLine">React Accounts App</h3>
+                    <br />
+                    <p>Visit project</p>
+                  </a>
+                </div>
+                <!-- item 2 end -->
+
+                <!-- item 3 -->
+                <div class="item">
+                  <div class="shadow-effect">
+                    <img
+                      class="img-circle"
+                      style="width: 100%"
+                      src="img/project/eCommerce-React/1.png"
+                      alt=""
+                    />
+                    <div class="team-text">
+                      <p>
+                        <a
+                          class="borderCircle"
+                          href="https://github.com/wlada995/eCommerce-React-Commerce.js-Stripe"
+                          target="_blank"
+                          ><i class="fa fa-link" aria-hidden="true"></i
+                        ></a>
+                        <a
+                          class="borderCircle"
+                          href="img/project/eCommerce-React/1.png"
+                          data-lightbox="project2"
+                          ><i class="fa fa-search-plus" aria-hidden="true"></i
+                        ></a>
+                        <a
+                          href="img/project/eCommerce-React/2.png"
+                          data-lightbox="project2"
+                        ></a>
+                        <a
+                          href="img/project/eCommerce-React/3.png"
+                          data-lightbox="project2"
+                        ></a>
+                        <a
+                          href="img/project/eCommerce-React/4.png"
+                          data-lightbox="project2"
+                        ></a>
+                        <a
+                          href="img/project/eCommerce-React/5.png"
+                          data-lightbox="project2"
+                        ></a>
+                      </p>
+                    </div>
+                  </div>
+
+                  <a
+                    href="https://github.com/wlada995/eCommerce-React-Commerce.js-Stripe"
+                    class="text-white text-decoration-none"
+                  >
+                    <h3 class="headerLine">eCommerce React project</h3>
+                    <br />
+                    <p>Visit project</p>
+                  </a>
+                </div>
+                <!-- item 3 end -->
+
+                <!-- item 4 -->
+                <div class="item">
+                  <div class="shadow-effect">
+                    <img
+                      class="img-circle"
+                      style="width: 100%"
+                      src="img/project/MERN/1.png"
+                      alt=""
+                    />
+                    <div class="team-text">
+                      <p>
+                        <a
+                          class="borderCircle"
+                          href="https://github.com/wlada995/Full-Stack-MERN-Project"
+                          target="_blank"
+                          ><i class="fa fa-link" aria-hidden="true"></i
+                        ></a>
+                        <a
+                          class="borderCircle"
+                          href="img/project/MERN/1.png"
+                          data-lightbox="project3"
+                          ><i class="fa fa-search-plus" aria-hidden="true"></i
+                        ></a>
+
+                        <a
+                          href="img/project/MERN/2.png"
+                          data-lightbox="project3"
+                        ></a>
+
+                        <a
+                          href="img/project/MERN/3.png"
+                          data-lightbox="project3"
+                        ></a>
+
+                        <a
+                          href="img/project/MERN/4.png"
+                          data-lightbox="project3"
+                        ></a>
+
+                        <a
+                          href="img/project/MERN/5.png"
+                          data-lightbox="project3"
+                        ></a>
+                      </p>
+                    </div>
+                  </div>
+
+                  <a
+                    href="https://github.com/wlada995/Full-Stack-MERN-Project"
+                    class="text-white text-decoration-none"
+                  >
+                    <h3 class="headerLine">MERN</h3>
+                    <br />
+                    <p>Visit project</p>
+                  </a>
+                </div>
+                <!-- item 4 end -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- WebSites end-->
+
+    <!-- EDUCATION -->
+
+    <div class="wallpaperEduaction mb-5" id="education">
+      <div class="col-lg-12 col-md-10 col-sm-10">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center font-weight-bold">
+              <h1 class="mt-5" id="education">Education</h1>
+              <div class="row rowLine">
+                <span class="uvc-headings-line"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="row my-5">
+            <div class="col-lg-12 font-weight-bold">
+              <div class="col-lg-8">
+                <h2 class="headerLine">
+                  Visoko poslovna Skola strukovnih studija Blace
+                </h2>
+                <div class="text-muted">
+                  <p>Computing and Informatics</p>
+                </div>
+                <div class="text-muted">
+                  <p>3th Year (Advanced University Student)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="container">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <h3 class="font-weight-bold mb-4">1st year</h3>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Mathematics
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Physics
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      English language I
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Basics of computer technology
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Basics of internet technology
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Practical classes 1
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Introduction to programming
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Fundamentals of electrical engineering and electronics
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Discrete mathematics
+                    </p>
+
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Pedagogy
+                    </p>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <h3 class="font-weight-bold mb-4">2st year</h3>
+
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Web design
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Mobile computing
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Computer networks
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Computer architecture and organization
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Object oriented programming
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Operating systems
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Practical classes 2
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Relational databases
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Algorithms and data structures
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      English language II
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Strucna praksa II
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Professional practice 1
+                    </p>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <h3 class="font-weight-bold mb-4">3st year</h3>
+
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      XML tehnologije i veb servisi
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Security in the account. networks
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Vestacka inteligencija
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Distribuirani sistemi
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      English III
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Final exam
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Business communications
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Professional practice 2
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Project
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Information systems design
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Computer graphics and multimedia
+                    </p>
+                    <p>
+                      <i
+                        class="fa fa-arrow-right"
+                        style="color: #194475"
+                        aria-hidden="true"
+                      >
+                      </i>
+                      Practical classes 3
+                    </p>
+                  </div>
+                </div>
+
+                <div class="row my-5">
+                  <div class="col-lg-12 font-weight-bold">
+                    <div class="col-lg-10">
+                      <h2 class="headerLine">
+                        College of Applied Technical Sciences Nis
+                      </h2>
+                      <div class="text-muted">
+                        <p>Multimedia Communication Technologies</p>
+                      </div>
+                      <div class="text-muted">
+                        <p>2th Year (Master University Student)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <h3 class="font-weight-bold mb-4">1st year</h3>
+
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Processing of Multimedia Signals
+                          </p>
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Wireless Transmission Techniques
+                          </p>
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Digital telecommunication systems
+                          </p>
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            English language
+                          </p>
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Advanced Web Technologies
+                          </p>
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Telecommunications Measurement
+                          </p>
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Wireless Sensing Networks
+                          </p>
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Professional Practice 1
+                          </p>
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Distribution Systems
+                          </p>
+                        </div>
+                        <div class="col-lg-4">
+                          <h3 class="font-weight-bold mb-4">2st year</h3>
+
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Active Network Devices
+                          </p>
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Software Development Tools
+                          </p>
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Multimedia Communications
+                          </p>
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Mobile Operative Systems
+                          </p>
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Professional Practice 2
+                          </p>
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Information Systems Design
+                          </p>
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Multimedia Applications Development
+                          </p>
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Applied Research Work
+                          </p>
+                          <p>
+                            <i
+                              class="fa fa-arrow-right"
+                              style="color: #194475"
+                              aria-hidden="true"
+                            >
+                            </i>
+                            Master Thesis
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid education" style="padding-right: 0">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="col-sm-12">
+            <h1 class="text-center headerEducation mt-5">
+              Additional Education
+            </h1>
+            <div class="row rowLine">
+              <span class="uvc-headings-line lineEducation"></span>
+            </div>
+          </div>
+
+          <div class="col-lg-12 text-center mb-4">
+            <a
+              class="text-warning"
+              target="_blank"
+              href="https://www.udemy.com/course/the-complete-web-developer-course-2/"
+              ><h3>The Complete Web Developer Course 2.0</h3></a
+            >
+            <p class="smallText">
+              HTML 5, CSS 3, Javascript, jQuery, Bootstrap 4, PHP, MySQL...
+            </p>
+
+            <a
+              class="text-decoration-none"
+              target="_blank"
+              href="https://www.danilovesovic.com/kategorije/nodejs"
+              ><h3 class="text-warning">NodeJS - Danilo Vesovic</h3></a
+            >
+            <p class="smallText">Node.js, MongoDB</p>
+
+            <a
+              class="text-decoration-none"
+              target="_blank"
+              href="https://www.danilovesovic.com/kategorije/reactjs"
+              ><h3 class="text-warning">React.js - Danilo Vesovic</h3></a
+            >
+            <p class="smallText">React.js</p>
+          </div>
+        </div>
+
+        <div class="col-lg-5 frameImage d-flex align-items-center">
+          <img
+            src="img/wallpaper3.png"
+            id="wallpaper2"
+            width="100%"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="row wallpaperAbout" id="skills">
+      <div class="container my-5">
+        <h1 class="text-center">My Skills</h1>
+        <div class="row rowLine mb-5">
+          <span class="uvc-headings-line skills"></span>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1>Proffesional Skills</h1>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12 mt-4">
+                    <p>HTML/HTML5</p>
+                    <p>CSS3/SCSS</p>
+                    <p>JavaScript</p>
+                    <p>JS Libraries (jQuery, Node.js)</p>
+                    <p>PHP</p>
+                    <p>MySQL/MongoDB</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h1>Personal Skills</h1>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 mt-4">
+                    <p>Team Oriented</p>
+                    <p>Flexible</p>
+                    <p>Creative</p>
+                    <p>Deligence</p>
+                    <p>Reliability</p>
+                    <p>Positive Work Ethic</p>
+                  </div>
+                  <div class="col-lg-6 mt-4">
+                    <p>Great Communicator</p>
+                    <p>Professionalism</p>
+                    <p>Responsible</p>
+                    <p>Funny</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row text-white" id="contact">
+        <div class="container-fluid">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-12">
+                <h1 class="text-center mt-5">Contact me</h1>
+                <div class="row rowLine mb-5">
+                  <span class="uvc-headings-line contact"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 mb-5">
+            <div class="row">
+              <div class="col-lg-7">
+                <h1 class="mb-4">Have questions?</h1>
+                <p>
+                  If you have any questions, or you want to arrange meeting,
+                  don’t hesitate to contact me and I’ll answer as soon as I can.
+                </p>
+                <p>
+                  I’m a friendly person and easy to talk to, so if you have any
+                  questions feel free to ask.
+                </p>
+                <p>
+                  You can contact me directly via email address or via contact
+                  form.
+                </p>
+                <p>Thank you for your visit.</p>
+                <div class="row">
+                  <div class="col-lg-5 mt-4">
+                    <p>Phone number:</p>
+                    <p>
+                      <a
+                        href="tel:+381283315"
+                        class="fas fa-mobile-alt text-white"
+                      >
+                        +381 (62) 28 33 15</a
+                      >
+                    </p>
+
+                    <p class="mt-4">Social profiles:</p>
+                    <a href="#" class="fab fa-instagram text-white mr-4"></a>
+                    <a
+                      href="https://www.facebook.com/"
+                      class="fab fa-facebook text-white mr-4"
+                    ></a>
+                    <a
+                      href="https://github.com/wlada995?tab=repositories"
+                      class="fab fa-github text-white mr-4"
+                    ></a>
+                  </div>
+
+                  <div class="col-lg-7 my-4">
+                    <p>E-mail:</p>
+                    <a
+                      href="mailto:vladimirmilosevic1995@gmail.com"
+                      class="far fa-envelope text-white"
+                    >
+                    </a>
+
+                    <p class="mt-4">Viber:</p>
+                    <a
+                      href="viber://chat/?number=%2B38162283315"
+                      class="fab fa-viber text-white"
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <form class="col-lg-12" method="POST" action="index.html">
+                  <div class="form-outline">
+                    <label class="form-label" for="typeText">Name: </label>
+                    <input
+                      type="text"
+                      id="typeText"
+                      style="background: transparent"
+                      class="form-control inputName text-white"
+                      value=""
+                    />
+                  </div>
+                  <div class="form-outline">
+                    <label class="form-label" for="typeEmail">Email:</label>
+                    <input
+                      type="email"
+                      id="typeEmail"
+                      style="background: transparent"
+                      class="form-control emailInput text-white"
+                      value=""
+                    />
+                  </div>
+                  <div class="form-outline">
+                    <label class="form-label" for="textAreaExample"
+                      >Message:</label
+                    >
+                    <textarea
+                      class="form-control messageInput text-white"
+                      style="background: transparent"
+                      id="textAreaExample"
+                      value=""
+                      rows="4"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-info sendBtn mt-3">
+                    SEND MESSAGE
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home"
+      ><i id="fixedbutton" class="fa fa-arrow-up" aria-hidden="true"></i
+    ></a>
+
+    <!-- EDUCATION end -->
+  </body>
+</html>
+
+<!-- jQuery -->
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"
+></script>
+<!-- jQuery -->
+
+<!-- Bootstrap -->
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  crossorigin="anonymous"
+></script>
+<!-- Bootstrap  end-->
+
+<!-- OWL Carousel (carousel za proizvode)-->
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+  integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+  crossorigin="anonymous"
+></script>
+
+<!-- OWL Carousel end -->
+<script src="js/main.js"></script>
