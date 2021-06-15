@@ -383,6 +383,15 @@ footer a {
 
 }
 
+@media only screen and (min-width: 768px) {
+  .vertical-nav{
+    width:100%;
+  }
+  .media {
+   width: 60%;
+    margin-left: 15%;
+  }
+}
 
 @media (max-width: 768px) {
   h1,
