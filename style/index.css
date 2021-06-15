@@ -26,11 +26,8 @@ a {
 /* FONT END */
 
 .vertical-nav {
-  
   min-width: 20rem;
-  width: 33.9rem;
-  display: none;
-  
+  width: 17rem;
   height: 100%;
   position: fixed;
   top: 0;
